@@ -170,9 +170,9 @@ def backtest(from_date, to_date, target, r2r, starting_capital=100000, trade_onl
 
 if __name__ == '__main__':
     '''
-    TODO:   Analyse results (max drawdown, roi, average trade holding time.)
-            Day wise. Daily. Monthly. Plot equity curve, drawdown.
+    TODO:   Write code for analysing backtesting results on multiple parameters using multiple metrics (max drawdown, roi, average trade holding time.)
             Adjust PnL for brokerage.
+            Modularize strategy part for more generalised usage of backtester.
     '''
     from_date = datetime(2021, 1, 1)
     to_date = datetime(2021, 1, 28)
